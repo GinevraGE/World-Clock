@@ -9,30 +9,37 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.40/moment-timezone-with-data-1970-2030.min.js
 "></script>
-    <title>World Cloc</title>
+    <title>World Clock</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select name="" id="">
-        <option value="">New York</option>
-        <option value="">Paris</option>
-        <option value="">Parma</option>
-        <option value="">Auckland</option>
+      <select id="city">
+        <option value="">Select a City</option>
+        <option value="Africa/Lagos">Lagos</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/Rome">Rome</option>
+        <option value="America/Halifax">Halifax</option>
       </select>
-      <div class="city" id="los-angeles">
-        <div>
-          <h2>Los Angeles</h2>
-          <div class="date"></div>
+
+      <div id="cities">
+        <div class="city" id="los-angeles">
+          <div>
+            <h2>Los Angeles</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time"><small></small></div>
-      </div>
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris</h2>
-          <div class="date"></div>
+
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris</h2>
+            <div class="date">Jan 10th 2023</div>
+            <div class="date"></div>
+          </div>
+          <div class="time">19:51:22 <small> PM</small></div>
+          <div class="time"><small></small></div>
         </div>
-        <div class="time"><small></small></div>
       </div>
 
       <div>
